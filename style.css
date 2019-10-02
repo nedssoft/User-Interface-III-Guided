@@ -135,3 +135,13 @@ button {
   order: 0;
   align-self: center;
 }
+/* 
+@media(max-width: 600px) {
+  .parent-container .child-1 {
+    background: red;
+  }
+
+  header {
+    background: royalblue;
+  }
+} */
