@@ -37,6 +37,10 @@ strong {
   color: royalblue;
 }
 
+header {
+  display: flex;
+}
+
 header h1 {
   font-size: 20px;
 }
@@ -86,13 +90,19 @@ button {
 
 .parent-container {
   height: 500px;
+  /* width: 200px; */
   margin-bottom: 100px;
   border: 2px solid royalblue;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: baseline;
 }
 
 .parent-container .child-item {
   width: 100px;
-  height: 100px;
+  /* height: 100px; */
   border: 1px solid #9f9f9f;
 }
 
