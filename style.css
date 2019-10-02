@@ -108,7 +108,7 @@ button {
 }
 
 .parent-container .child-item {
-  width: 100px;
+  /* width: 100px; */
   height: 100px;
   border: 1px solid #9f9f9f;
 }
@@ -123,6 +123,7 @@ button {
 .parent-container .child-2 {
   order: 0;
   align-self: center;
+  flex-grow: 2;
 }
 
 .parent-container .child-3 {
